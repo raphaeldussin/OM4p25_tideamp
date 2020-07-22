@@ -15,7 +15,7 @@ build:
   tags:
     - pan
   script:
-    - conda env create --file repro.yml
+    - conda env create --file repro-pan.yml
     - . activate repro
     - conda list -e
     - python -m ipykernel install --user --name repro --display-name "Py3-repro"
