@@ -1,2 +1,1 @@
-6c1d930a2bcef1bf5442959fa9ee6ba5  regrid_wgts_TPXOv9_OM4p25.nc
-4e654ef24b5885287f52af328229484b  tidal_amplitude_TPXO9_OM4p25.v20200728.nc
+5ca1f2f0291fcfe339dbdd9074b82544  tidal_amplitude_TPXO9_OM4p25.v20210125.nc
