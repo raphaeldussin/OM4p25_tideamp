@@ -15,10 +15,10 @@ build:
   tags:
     - pan
   script:
-    - conda env create --file repro-pan.yml
-    - . activate repro
+    - conda env create --file tpxo_interp-pan.yml
+    - . activate tpxo_interp
     - conda list -e
-    - python -m ipykernel install --user --name repro --display-name "Py3-repro"
+    - python -m ipykernel install --user --name tpxo_interp --display-name "tpxo_interp"
     - papermill Tidal_forcing_TPXO8_OM4p25.ipynb output1.ipynb
     - md5sum -c checksums_TPXO8.txt
     - papermill Tidal_forcing_TPXO9_OM4p25.ipynb output2.ipynb

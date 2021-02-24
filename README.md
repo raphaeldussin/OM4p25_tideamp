@@ -6,15 +6,15 @@ TPXO products need to be obtained through registration [here](https://www.tpxo.n
 
 ## Reproducing the results
 
-I created my `repro` environment from the file `repro.yml`.
+I created my `tpxo_interp` environment from the file `tpxo_interp.yml`.
 This environment can be recreated exactly using:
 
 ```
-conda create --name repro --file spec-env.txt
+conda create --name tpxo_interp --file spec-env.txt
 ```
 
 To make this environment visible from jupyter, use:
 
 ```
-python -m ipykernel install --user --name repro --display-name "Py3-repro"
+python -m ipykernel install --user --name tpxo_interp --display-name "Py3-tpxo_interp"
 ```
